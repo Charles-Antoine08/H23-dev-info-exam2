@@ -1,2 +1,16 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
 
+
+git commit -m "ajout de la classe Cheval"
+git commit -m "ajout de la classe Animal"
+git commit -m "ajout de la classe Voiture"
+git checkout <id du dernier commit>
+git branch dev
+git checkout dev
+git commit -m "maj classe Cheval"
+git commit -m "mal classe Animal"
+git checkout master
+git merge dev
+git commit -m "fusionner dev avec master"
+git branch -d dev
+
